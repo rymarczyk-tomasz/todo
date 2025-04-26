@@ -24,43 +24,26 @@ Prosta aplikacja ToDo zbudowana przy użyciu **React** i **Vite**. Umożliwia do
 ## Instalacja i uruchomienie
 
 1. Sklonuj repozytorium:
+
     ```bash
     git clone <adres-repozytorium>
     cd todo-app
     ```
 
--   Zainstaluj zależności
+2. Zainstaluj zależności
 
 ```bash
 
 npm install
 ```
 
--   Uruchom aplikację w trybie deweloperskim
+3.  Uruchom aplikację w trybie deweloperskim
 
 ```bash
 npm run dev
 ```
 
--   Otwórz przeglądarkę i przejdź do adresu podanego w konsoli (domyślnie http://localhost:5173).
-
-## Struktura projektu
-
-todo-app/
-├── public/ # Statyczne pliki publiczne
-├── src/ # Kod źródłowy aplikacji
-│ ├── components/ # Komponenty React
-│ │ ├── TodoForm.jsx # Formularz do dodawania zadań
-│ │ ├── TodoItem.jsx # Pojedynczy element listy zadań
-│ │ └── TodoList.jsx # Lista wszystkich zadań
-│ ├── App.jsx # Główny komponent aplikacji
-│ ├── App.css # Style dla aplikacji
-│ ├── main.jsx # Punkt wejścia aplikacji
-│ └── index.css # Globalne style
-├── .gitignore # Pliki ignorowane przez Git
-├── package.json # Zależności i skrypty
-├── vite.config.js # Konfiguracja Vite
-└── README.md # Ten plik
+4.  Otwórz przeglądarkę i przejdź do adresu podanego w konsoli (domyślnie http://localhost:5173).
 
 ## Użycie
 
